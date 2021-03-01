@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('A') {
             steps {
-                echo 'Building..'
+                ls
             }
         }
         stage('Test') {
