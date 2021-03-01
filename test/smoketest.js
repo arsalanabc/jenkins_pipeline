@@ -1,5 +1,8 @@
 'use strict';
-require('dotenv').config({path: './.env'});
+require('dotenv').config({path: '.env'});
+
+console.log(process.env.APP_URL);
+
 
 const chai = require('chai')
 const chaiHttp = require('chai-http');
